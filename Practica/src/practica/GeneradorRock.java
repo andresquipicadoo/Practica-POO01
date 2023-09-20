@@ -3,18 +3,21 @@ package practica;
 public class GeneradorRock extends GeneradorMusica {
 	// Instrumento que suena en la cancion de Rock el cual es string
     private String instrumento;
-    //Hereda de GeneradorMusica GenerarCancion y ReproducirMusica
-	public GeneradorRock(String genero, String letra) {
+    //Hereda de GeneradorMusica los metodos  GenerarCancion y ReproducirMusica
+    
+	// Tipo del genero de canciones de rock o sus variantes
+
+    private String tipoRock; 
+	public GeneradorRock(String genero, String letra,String inst,String tipoRock) {
 		super(genero, letra);
-		// TODO Auto-generated constructor stub
 	}
 
-	@Override
+
 	public void generarCancion() {
 		
 	}
 
-	@Override
+
 	public void reproducirMusica() {
 		
 	}
@@ -33,6 +36,16 @@ public class GeneradorRock extends GeneradorMusica {
 
 	public void setInstrumento(String instrumento) {
 		this.instrumento = instrumento;
+	}
+
+
+	public String getTipoRock() {
+		return tipoRock;
+	}
+
+
+	public void setTipoRock(String tipoRock) {
+		this.tipoRock = tipoRock;
 	}
 	
 	

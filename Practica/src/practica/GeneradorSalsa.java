@@ -5,13 +5,13 @@ public  class GeneradorSalsa extends GeneradorMusica{
 	private String TipoSalsa;
 	// Instrumento que suena en la cancion de Salsael cual es string
 	private String instrumentos;
-    //Hereda de GeneradorMusica GenerarCancion y ReproducirMusica
+    //Hereda de GeneradorMusica los metodos  GenerarCancion y ReproducirMusica
+
 	public GeneradorSalsa(String genero, String letra, String tipoSalsa, String Instrumentos) {
 		super(genero, letra);
-		// TODO Auto-generated constructor stub
 	}
 
-	@Override
+	
 	public void generarCancion() {
 		
 		

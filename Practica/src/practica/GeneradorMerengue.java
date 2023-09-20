@@ -5,7 +5,7 @@ public class GeneradorMerengue extends GeneradorMusica {
 	private String tipoMerengue;
 	// Instrumento que suena en la cancion de Merengue el cual es string
     private String instrumento;
-    //Hereda de GeneradorMusica GenerarCancion y ReproducirMusica
+    //Hereda de GeneradorMusica los metodos  GenerarCancion y ReproducirMusica
 	public GeneradorMerengue(String genero, String letra,String inst) {
 		super(genero, letra);
 	}
