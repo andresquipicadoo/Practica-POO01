@@ -1,25 +1,25 @@
 package practica;
 
 public class GenerarReggaeton  extends GeneradorMusica{
-	// Tipo del genero de canciones de reggeton como por ejemplo la salsa cubana 
+	// Tipo del genero de canciones de reggeton 
 	private String TipoReg;
 	// Instrumento que suena en la cancion reggeton cual es string
 	private String instrumentos;
     //Hereda de GeneradorMusica los metodos  GenerarCancion y ReproducirMusica
 	public GenerarReggaeton(String genero, String letra,String Reg,String ins) {
 		super(genero, letra);
-		// TODO Auto-generated constructor stub
-	}
-
-	@Override
-	public void generarCancion() {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
+	public void generarCancion() {
+	
+		
+	}
+
+
 	public void reproducirMusica() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
